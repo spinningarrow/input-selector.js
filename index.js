@@ -3,7 +3,7 @@ const http = require('http')
 
 const requestListener = (req, res) => {
 	const selectedInput = req.headers['x-input-selected']
-	exec(`node /data/plugins/system_controller/gpio_control/input-selector.js ${selectedInput}`)
+	exec(`node /home/volumio/input-selector.js/input-selector.js ${selectedInput}`)
 
 	res.writeHead(200)
 	res.end(`Selected: ${selectedInput}`)
