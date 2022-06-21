@@ -1,1 +1,0 @@
-@reboot node /home/volumio/input-selector.js/index.js

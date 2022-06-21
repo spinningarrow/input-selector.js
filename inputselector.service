@@ -1,0 +1,8 @@
+[Unit]
+Description=input-selector.js
+
+[Service]
+ExecStart=/usr/bin/node /home/volumio/input-selector.js/index.js
+
+[Install]
+WantedBy=multi-user.target
